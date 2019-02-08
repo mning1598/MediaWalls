@@ -1,0 +1,128 @@
+* {
+	font-family: 'Comfortaa', 
+	cursive;
+}
+
+html,
+body,
+body {
+    background-image: url("/assets/graffiti.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.bgColor1 {
+	background-color: #daf2ef;
+}
+.bgColor2 {
+	background-color: #94e278;
+	height: 120px;
+}
+
+.container {
+    width: 95%;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.bluredForm {
+  width: 750px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.bluredForm > form {
+  text-align: center;
+  padding: 10px 10px 5px 10px;
+}
+
+.logo {
+	width: 15%;
+	padding-right: 15px;
+}
+
+.menu_wrapper {
+	max-width: 100%;
+	margin: 0;
+	clear: both;
+}
+.menu {
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 0 40px;
+    position: relative;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.menu__list-item {
+    display: inline-block;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.menu__link {
+    color: #fc6c85;
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+}
+
+.menu__link:hover {
+    color: #fc6c85;
+}
+
+.menu__link--active {
+    border-top: 4px solid #fc6c85;
+    font-weight: 700;
+}
+
+.pt100 {
+	padding-top: 100px;
+
+}
+
+.pt75 {
+	padding-top: 75px;
+}
+
+.mlr100 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+
+.title1 {
+	font-size: 40pt;
+	margin: 0;
+    opacity: 1;
+
+}
+
+.fbs {
+	font-size: 14pt;
+}
